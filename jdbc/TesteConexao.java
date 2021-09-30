@@ -8,7 +8,7 @@ public class TesteConexao {
 
 	public static void main(String[] args) throws SQLException{
 		
-		final String url = "jdbc:mysql://localhost?verifyServerCertificate=false&useSSL=true"
+		final String url = "jdbc:mysql://localhost?verifyServerCertificate=false&useSSL=TRUE"
 				+ "&useTimezone=true&serverTimezone=UTC";
 		final String usuario = "root";
 		final String senha = "abc12345";
