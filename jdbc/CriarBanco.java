@@ -9,8 +9,7 @@ public class CriarBanco {
 
 	public static void main(String[] args) throws SQLException {
 		
-		final String url = "jdbc:mysql://localhost?verifyServerCertificate=false&useSSL=true"
-				+ "&useTimezone=true&serverTimezone=UTC";
+		final String url = "jdbc:mysql://localhost?verifyServerCertificate=false&useSSL=true&useTimezone=true&serverTimezone=UTC";
 		final String usuario = "root";
 		final String senha = "abc12345";
 		
